@@ -1,0 +1,12 @@
+2025-08-01 10:00:00 Starting service
+2025-08-01 10:01:02 INFO Connected to DB
+2025-08-01 10:01:05 WARN Slow query detected
+2025-08-01 10:01:07 ERROR Failed to fetch user
+2025-08-01 10:01:08 ERROR Failed to fetch user
+2025-08-01 10:01:10 INFO Retrying
+2025-08-01 10:02:00 authentication failure: user=alice ip=10.0.0.5
+2025-08-01 10:02:10 failed login from 10.0.0.5
+2025-08-01 10:02:20 authentication failure: user=bob ip=10.0.0.6
+2025-08-01 10:02:30 authentication failure: user=bob ip=10.0.0.6
+2025-08-01 10:02:40 authentication failure: user=bob ip=10.0.0.6
+2025-08-01 10:02:50 authentication failure: user=bob ip=10.0.0.6

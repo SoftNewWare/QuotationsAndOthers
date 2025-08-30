@@ -1,0 +1,17 @@
+rules:
+  - id: failed_login
+    description: 'Failed login attempt'
+    pattern: '(failed login|authentication failure)'
+    severity: 'medium'
+    window: '5m'
+    threshold: 5
+
+  - id: suspicious_200_with_sql
+    description: 'Potential SQLi signature returned 200'
+    pattern: '(UNION SELECT|\bor\b\s+1=1|sleep\()'
+    severity: 'high'
+
+  - id: http_500
+    description: 'HTTP 500 in access log'
+    pattern: '\s500\s'
+    severity: 'high'
