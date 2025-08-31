@@ -1,7 +1,7 @@
 from flask import Flask, render_template_string, request, send_file, redirect, url_for
 from datetime import datetime
 import io
-from quotation_pdf import QuotationPDF
+from log_analyzer.quotation_pdf import QuotationPDF
 
 
 app = Flask(__name__)
